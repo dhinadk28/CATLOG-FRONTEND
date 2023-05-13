@@ -14,6 +14,8 @@ const CreateProduct = () => {
 
   const [images, setImages] = useState([]);
   const [name, setName] = useState("");
+
+  
   const [description, setDescription] = useState("");
   const [category, setCategory] = useState("");
   const [tags, setTags] = useState("");
